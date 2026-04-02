@@ -111,6 +111,12 @@ body{
     font-weight: 600;
 }
 
+.btn:hover {
+    background: #ddd;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .registration-link{
     font-size: 14px;
     margin-top: 20px;
@@ -136,7 +142,7 @@ body{
     margin: -15px 0 15px ;
 }
 
-.remember-forgot lable input{
+.remember-forgot label input{
     accent-color: #fff;
     margin-right: 3px;
 }
@@ -149,7 +155,7 @@ body{
     text-decoration: underline;
 }
 .wrapper .registration-link{
-    font-size: 14.5 px;
+    font-size: 14.5px;
     text-align: center;
     margin-top: 20px ;
 } 
@@ -162,4 +168,11 @@ body{
 
 .registration-link p a:hover{
     text-decoration: underline;
+}
+
+@media (max-width: 480px){
+    .wrapper{
+        width: 90%;
+        padding: 20px;
+    }
 }
